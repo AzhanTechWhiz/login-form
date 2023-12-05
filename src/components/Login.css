@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(login.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-container {
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #ffffff3f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title style */
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  /* Styles for form fields */
+  .field {
+    margin-bottom: 25px;
+  }
+  
+  /* Styles for labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Styles for input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    outline: none;
+  }
+  .field input::placeholder{
+    color: white;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Styles for error messages */
+  .error {
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  button {
+    padding: 10px 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0.658);
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
